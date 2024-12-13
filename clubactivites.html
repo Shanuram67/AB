@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Activities</title>
+  <link rel="icon" type="image/x-icon" href="/images/club-logo.jpg">
+ <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(61,42,68,255); /* Dark purple */
+  color: rgba(211,168,144,255); /* Light gold */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+}
+
+.back-link {
+  display: inline-block;
+  color: rgba(211,168,144,255); /* Light gold */
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.page-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: rgba(211,168,144,255); /* Light gold */
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.activity-box {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.activity-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(61,42,68,0.8); /* Semi-transparent dark overlay */
+  width: 100%;
+  padding: 20px;
+  color: rgba(211,168,144,255); /* Light gold */
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.activity-box p {
+  margin: 0;
+}
+
+.activity-overlay p:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsiveness (up to 480px) */
+@media (max-width: 480px) {
+  .back-link {
+    font-size: 1rem;
+  }
+
+  .page-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .activities-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .activity-box {
+    height: 200px;
+  }
+
+  .activity-overlay {
+    font-size: 1.0rem;
+    padding: 15px;
+  }
+}
+
+/* Tablet Responsiveness (481px to 768px) */
+@media (max-width: 768px) {
+  .back-link {
+    font-size: 1.1rem;
+  }
+
+  .page-heading {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+  }
+
+  .activities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .activity-box {
+    height: 220px;
+  }
+
+  .activity-overlay {
+    font-size: 0.75rem;
+    padding: 18px;
+  }
+}
+
+ </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Back to Home Link -->
+    <a href="index.html" class="back-link">← Back to Home</a>
+
+    <!-- Page Heading -->
+    <h1 class="page-heading">Club Activities</h1>
+
+    <!-- Activity Boxes -->
+    <div class="activities-grid">
+      <div class="activity-box" style="background-image: url('https://static.vecteezy.com/system/resources/previews/023/523/204/non_2x/women-empowerment-womens-day-campaign-celebration-poster-with-women-face-silhouette-vector.jpg');">
+        <div class="activity-overlay">
+          <p>Workshop on Empowerment</p>
+        </div>
+      </div>
+      <div class="activity-box" style="background-image: url('https://elomentorat.com/wp-content/uploads/2021/03/journee_femmes-e1583513673712.png');">
+        <div class="activity-overlay">
+          <p>Mentorship Program</p>
+        </div>
+      </div>
+      <div class="activity-box" style="background-image: url('https://media.istockphoto.com/id/1337683229/vector/strong-woman-concept.jpg?s=612x612&w=0&k=20&c=vpTFWfqQtlY5Fy1Mkpoj9UA00PnjjUch7Dpe55cDMGQ=');">
+        <div class="activity-overlay">
+          <p>Leadership Seminar</p>
+        </div>
+      </div>
+      <div class="activity-box" style="background-image: url('https://www.thewomb.in/wp-content/uploads/2020/10/1.jpg');">
+        <div class="activity-overlay">
+          <p>Health & Wellness</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

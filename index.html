@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>WOW Club CSE - DS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="/images/club-logo.jpg">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <header  class="navbar">
+    <!-- WOW Club logo -->
+    <div class="logo">WOW Club CSE-DS</div>
+    <span class="menu-icon" onclick="toggleMenu()">☰</span>
+  
+    <!-- Navbar links -->
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#members">Members</a>
+      <a href="#events">Events</a>
+      <a href="#club">Our Dept Clubs</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+  
+
+
+<section id="home"   class="video-section">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="/video/01p.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  
+    <div class="video-overlay">
+      <img src="/images/club-logo.jpg" alt="WOW Club Logo" class="center-logo">
+      <p class="quote">"Empowering women to achieve greatness together."</p>
+      <a href="clubactivites.html"><button class="learn-more-btn">Learn More</button></a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container py-5">
+    <div class="text-center mb-5">
+      <h2 class="members-title" style="color: rgb(128, 0, 128);">About Us</h2>
+    </div>
+    <div class="row align-items-center">
+      <!-- Image Section -->
+      <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+        <img src="https://imgs.search.brave.com/aFPa5g-tlvw9snLtwOYyWOkBGeowCRZaoECd8iahzbw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjE1/NTI0OTE4L3Bob3Rv/L3dpbm5lci5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9Wi1l/UkpiRlQ5aFktOEdD/czhGTFMtSG45LUs5/TlprNVlVTE10NldL/eE1IYz0"
+          alt="WOW Club" class="img-fluid rounded shadow">
+      </div>
+  
+      <!-- Text Section -->
+      <div class="col-lg-6 order-2 order-lg-2">
+        <h2 class="about-title">About WOW Club</h2>
+        <p class="about-description">
+          The <strong> Women of Worth (WOW) Club </strong>is a dynamic organization within the CSE-Data Science Department dedicated to empowering women. We provide a supportive platform for women to connect, share experiences, and access resources for personal and professional growth. Through mentorship, workshops, and networking events, we aim to equip women with the skills and confidence to excel in their academic and career pursuits. Additionally, we actively promote awareness of social and legal issues affecting women, providing resources to navigate challenges. By fostering leadership and community engagement, we inspire women to become change-makers and advocates for equality.
+        </p>
+      </div>
+    </div>
+
+  
+    <!-- Vision, Mission, Objectives Cards -->
+    <div class="container mt-5 text-center">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        
+        <!-- Vision Card -->
+        <div class="col">
+          <div class="card shadow h-100">
+            <img src="https://imgs.search.brave.com/hhr3ZPyopVBLqaKHlwrvDwUxY-x8BnyTLLNXZl_2n98/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI5/OTk4NjQyNy9waG90/by9zaWxob3VldHRl/LW9mLWFzaWFuLXdv/bWFuLXN0YW5kaW5n/LWFnYWluc3QtZGFy/ay1jb3JyaWRvci1p/bi1hLXBhcmsud2Vi/cD9iPTEmcz0xNzA2/NjdhJnc9MCZrPTIw/JmM9amRVMXpxQzMw/NE9GUWFONXo3Uzls/WFl6NUM4R1VsY29T/Mkp5NTF3eDZObz0" class="card-img-top img-fluid" alt="Vision">
+            <div class="card-body">
+              <h5 class="card-title">Vision</h5>
+              <p class="card-text">To create a world where women in technology are empowered, supported, and equal, thriving in their academic and professional pursuits while making a positive impact in the fields of innovation and engineering.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Mission Card -->
+        <div class="col">
+          <div class="card shadow h-100">
+            <img src="https://imgs.search.brave.com/wTxWwSVnnx_VbB0DjAHxEVXip-mrd0OCaiZA65ATM3c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTEy/OTUwMjM1Mi9waG90/by9idXNpbmVzc3dv/bWFuLXBvd2VyZnVs/LW9mLXNoYWRvdy5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/ckd0eTBKT01UMHZs/UDMwNHV3ZVk5UU9r/MUh5VnJJNWpzWUkx/NWV0TmlNVT0" class="card-img-top img-fluid" alt="Mission">
+            <div class="card-body">
+              <h5 class="card-title">Mission</h5>
+              <p class="card-text">The  <strong> Wow Club</strong> is committed to uplifting female students in the CSE-Data Science Department by providing a supportive platform for personal and professional growth.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Objectives Card -->
+        <div class="col">
+          <div class="card shadow h-100">
+            <img src="https://imgs.search.brave.com/QbyKDtrJyzgebpZeRo71_mspAaxxpVC_kjzxhXwcx9A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTgy/NzQwNDY2L3Bob3Rv/L2JyYXZlLXdvbWFu/LXBvc2luZy1hcy1z/dXBlci1oZXJvLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1y/MkR4NFQ2ZGFGTGhC/UGJYejVEWmdVVWlB/azlpV2Z1R1duelpy/WVVLNjVRPQ" class="card-img-top img-fluid" alt="Objectives">
+            <div class="card-body">
+              <h5 class="card-title">Objectives</h5>
+              <ul class="objectives-list text-start">
+                <li><strong>Empowerment through Education and Leadership:</strong> Foster self-confidence, self-esteem, and leadership through educational programs.</li>
+                <li><strong>Promoting Respect, Equality, and Inclusivity:</strong> Create a culture of respect and inclusivity among women.</li>
+                <li><strong>Awareness and Prevention of Gender-related Issues:</strong> Raise awareness about women's rights and prevent gender-related issues.</li>
+                <li><strong>Holistic Development:</strong> Organize seminars to strengthen women mentally, emotionally, and intellectually.</li>
+                <li><strong>Entrepreneurial Mindset:</strong> Nurture an entrepreneurial spirit among women.</li>
+                <li><strong>Support for Personal Growth:</strong> Provide guidance for personal growth and challenges.</li>
+                <li><strong>Preserving Traditions:</strong> Build a supportive network that upholds traditions and values.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="members" class="container py-5">
+    <div class="text-center mb-5">
+      <h2 class="members-title" style="color: rgb(128, 0, 128); font-size: 2em; font-weight: bold;">Our Members</h2>
+    </div>
+  
+    <!-- Members Row -->
+    <div class="members-row">
+      
+      <!-- President Card -->
+      <div class="member-card">
+        <img src="/images/sreeja.png" alt="President Image" class="member-image">
+        <h4 class="member-name">S. Jhansi Sai Sreeja</h4>
+        <p class="member-position">President</p>
+      </div>
+      
+      <!-- Vice President Card -->
+      <div class="member-card">
+        <img src="/images/akhila.png" alt="Vice President Image" class="member-image">
+        <h4 class="member-name">K. Akhila</h4>
+        <p class="member-position">Vice President</p>
+      </div>
+      
+      <!-- Secretary Card -->
+      <div class="member-card">
+        <img src="/images/tanuja.png" alt="Secretary Image" class="member-image">
+        <h4 class="member-name">P. Tanuja</h4>
+        <p class="member-position">Secretary</p>
+      </div>
+  
+      <!-- Treasurer Card -->
+      <div class="member-card">
+        <img src="/images/lavanya.png" alt="Treasurer" class="member-image">
+        <h4 class="member-name">J. Lavanya</h4>
+        <p class="member-position">Treasurer</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="associate-committee">
+    <div class="text-center mb-5">
+      <h2 class="members-title" style="color: rgb(128, 0, 128); font-size: 2em; font-weight: bold;">Advisory Committee</h2>
+    </div>
+    <div class="cad">
+      <img src="/images/guest.png" alt="Member Photo" class="member-photo" />
+      <h2>Ms Chandini Chandana Akula</h2>
+      <p>Vice Chairwoman<br />CII IWN Andhra Pradesh & Co-Founder, AVERA AI Mobility</p>
+      <button 
+      class="learn-more-btn" 
+      onclick="openModal(
+        'Ms. Chandini Chandana Akula', 
+        'Vice Chairwoman, CII IWN Andhra Pradesh & Co-Founder, AVERA AI Mobility', 
+        'Ms. Chandini Chandana Akula, an MBA graduate and visionary entrepreneur, has made significant contributions to sustainable energy solutions. As Co-Founder of AVERA AI Mobility, she has received numerous accolades, including the Startup Award for Industrial Development and the Best Startup Award from FICCI FLO. She currently serves as Vice Chairwoman of CII IWN Andhra Pradesh, continuing her mission to empower women and drive innovation in various sectors.'
+      )"
+    >
+      Learn More
+    </button>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <!-- <img src="/images/guest.png" alt="Member Photo" class="modal-photo"> -->
+      <h2 id="modal-name"></h2>
+      <p id="modal-qualification"></p>
+      <p id="modal-description"></p>
+    </div>
+  </div>
+
+  
+  
+  
+  <section id="events" class="container py-5">
+    <!-- Heading -->
+    <div class="text-center mb-5">
+      <h2 class="events-title" style="color: rgb(128, 0, 128);">Upcoming Events</h2>
+    </div>
+  
+    <!-- No Events Message -->
+    <div class="row">
+      <div class="col-12 text-center no-events-message">
+        <i class="fas fa-calendar-times mb-3" style="font-size: 3rem; color: rgb(128, 0, 128);"></i>
+        <p class="no-events-text">Currently, there are no upcoming events.</p>
+        <p class="no-events-subtext">Please check back later for updates on our latest events!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="club" class="py-5 section-divider">
+    <div class="container">
+      <h2 class="text-center mb-5 display-3 text-uppercase" style="font-size: 2.5rem; color: rgb(128, 0, 128);">Our Department Clubs</h2>
+      <div class="row justify-content-center">
+        <!-- Club Cards -->
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <img src="/images/dmlogo.webp" class="card-img-top" alt="DataMinds Learning">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">DataMinds Learning</h5>
+              <p class="card-text flex-grow-1">Empowering Minds, Enriching Lives</p>
+              <a href="https://datamindslearning.godaddysites.com" target="_blank" class="learn-more-btn">Visit the Club</a>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat similar div structure for other cards -->
+        <!-- Example for Novaversity Club -->
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <img src="/images/nov.webp" class="card-img-top" alt="Novaversity Club">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Novaversity Club</h5>
+              <p class="card-text flex-grow-1">Transforming data engineering enthusiasts into skilled professionals.</p>
+              <a href="https://cseds-novaversityclub.netlify.app/" target="_blank" class="learn-more-btn">Visit the Club</a>
+            </div>
+          </div>
+        </div>
+        <!-- Continue for remaining clubs... -->
+           <!-- Service Spectrum Club -->
+           <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+                <div class="card-img-wrapper">
+                    <img src="/images/ssv.webp" class="card-img-top" alt="Service Spectrum">
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">SERVICE SPECTRUM CLUB</h5>
+                    <p class="card-text flex-grow-1">Promoting prosperity and the well-being of the community</p>
+                    <a href="https://servicespectrum.godaddysites.com/" target="_blank" class="learn-more-btn">Visit the Club</a>
+                </div>
+            </div>
+        </div>
+        <!-- Entertainment CLub -->
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+                <div class="card-img-wrapper">
+                    <img src="/images/Picsart_24-08-13_21-59-18-552.png" class="card-img-top" alt="Entertainment Club" width="50px" height="auto">
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Entertainment Club</h5>
+                    <p class="card-text flex-grow-1">Where Fun and Creation meets together</p>
+                    <a href="https://cseds-entertainmentclub.netlify.app/" target="_blank" class="learn-more-btn">Visit the Club</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Innovation and Incubation Hub CLUB -->
+        <div class="col-lg-2 col-md-4 col-sm-6 mb-4">
+            <div class="card h-100">
+                <div class="card-img-wrapper">
+                    <img src="/images/iinn.jpg" class="card-img-top" alt="Innovation and Incubation Hub CLUB" width="50px" height="auto">
+                </div>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Innovation and Incubation Hub CLUB</h5>
+                    <p class="card-text flex-grow-1">To foster creativity, collaboration, and entrepreneurship</p>
+                    <a href="https://dev-innovationhubpscmr.pantheonsite.io/" target="_blank" class="learn-more-btn">Visit the Club</a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 display-3 text-uppercase" style="font-size: 2.5rem; color: rgb(128, 0, 128);">Contact Us</h2>
+      <p class="text-center mb-5" style="color: rgb(75, 0, 130); font-size: 1.1rem;">
+        Reach out to WOW Club for any support, queries, or resources.
+      </p>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-12">
+          <form id="contactForm">
+            <div class="form-group mb-4">
+              <label for="name" style="color: rgb(128, 0, 128); font-weight: bold;">Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Your Full Name" required>
+            </div>
+            <div class="form-group mb-4">
+              <label for="email" style="color: rgb(128, 0, 128); font-weight: bold;">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Your Email Address" required>
+            </div>
+            <div class="form-group mb-4">
+              <label for="mobile" style="color: rgb(128, 0, 128); font-weight: bold;">Mobile Number</label>
+              <input type="tel" id="mobile" class="form-control" placeholder="Phone">
+            </div>
+            <div class="form-group mb-4">
+              <label for="subject" style="color: rgb(128, 0, 128); font-weight: bold;">Subject</label>
+              <input type="text" id="subject" class="form-control" placeholder="Subject of Inquiry" required>
+            </div>
+            <div class="form-group mb-4">
+              <label for="message" style="color: rgb(128, 0, 128); font-weight: bold;">Message</label>
+              <textarea id="message" class="form-control" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="button" id="sendButton" class="btn btn-custom">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <h4>Follow Us</h4>
+          <div class="social-icons mb-3">
+            <!-- <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a> -->
+            <a href="https://x.com/CWowclub?t=idgzm0BkayKCXWH66nluIQ&s=09" target="_blank" class="me-3"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/wowclub_cseds?igsh=MXB6ZXpoODV5ZXFpdQ==" target="_blank" class="me-3"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@csedswowclub" target="_blank" class="me-3"><i class="fab fa-youtube"></i></a>
+        </div>
+        
+          <p><i class="fas fa-phone me-2"></i> +91 99124 90080</p>
+          <p><i class="fas fa-envelope me-2"></i> wowclubcseds@gmail.com</p>
+          <p><i class="fas fa-clock me-2"></i> Opening hours: Mon-Sat 9am-5pm</p>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.044286905824!2d80.61101557514566!3d16.52386168422346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f01e63539d21%3A0x71a2c954de88ca67!2sPSCMR%20College%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1723285434482!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom text-center py-3 mt-4">
+        <p class="mb-0">CopyRight © @2024 PSCMR CSE-DS WOW Club- All Rights Reserved  </p>
+      </div>
+  </footer>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+  const navLinks = document.getElementById('navLinks');
+  const menuIcon = document.querySelector('.menu-icon');
+
+  // Toggle menu on icon click
+  if (menuIcon) {
+    menuIcon.addEventListener('click', function() {
+      navLinks.classList.toggle('show');
+    });
+  }
+
+  // Hide menu when a link is clicked (on mobile view)
+  if (navLinks) {
+    navLinks.addEventListener('click', function() {
+      if (window.innerWidth <= 768) {
+        navLinks.classList.remove('show');
+      }
+    });
+  }
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            const navbarHeight = document.querySelector('.navbar').offsetHeight;
+            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+    
+    
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('sendButton').addEventListener('click', function () {
+    // Get form values
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const mobile = document.getElementById('mobile').value.trim();
+    const subject = document.getElementById('subject').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    // Validate form fields
+    if (!name || !email || !subject || !message) {
+      alert("Please fill in all required fields.");
+      return;
+    }
+
+    // Construct Gmail URL
+    const gmailLink = `https://mail.google.com/mail/u/0/?fs=1&to=wowclubcseds@gmail.com&su=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(
+      `Name: ${name}\nPhone: ${mobile}\nMessage: ${message}\nEmail: ${email}`
+    )}&tf=cm`;
+
+    // Open the Gmail link
+    window.open(gmailLink, "_blank"); // Opens the link in a new tab
+  });
+
+  // Allow only numbers in the mobile field
+  document.getElementById('mobile').addEventListener('input', function () {
+    this.value = this.value.replace(/[^0-9]/g, ''); // Remove any non-numeric characters
+  });
+});
+
+
+
+function openModal(name, qualification, description) {
+  document.getElementById('modal-name').textContent = name;
+  document.getElementById('modal-qualification').textContent = qualification;
+  document.getElementById('modal-description').textContent = description;
+  document.getElementById('modal').style.display = 'flex';
+}
+
+function closeModal() {
+  document.getElementById('modal').style.display = 'none';
+}
+
+
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<script src="/js/script.js"></script>
+ 
+</body>
+</html>
+
